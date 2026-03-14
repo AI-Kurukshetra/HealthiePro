@@ -19,3 +19,13 @@
  ○ Compiling /admin ...
  ✓ Compiled /admin in 1367ms (898 modules)
  GET /admin 200 in 3102ms
+   Reload env: .env.local
+ ○ Compiling /_error ...
+ GET /admin 500 in 6475ms
+ GET /admin 500 in 54ms
+ GET /admin 500 in 280ms
+ GET /admin 500 in 116ms
+ GET /admin 500 in 223ms
+ GET /admin 500 in 74ms
+ GET /admin 500 in 255ms
+ GET /admin 500 in 80ms

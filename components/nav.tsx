@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SignOutButton } from "@/components/signout-button";
 import { NotificationBell } from "@/components/notification-bell";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { createClient } from "@/lib/supabase/server";
 
 const links = [
   { href: "/dashboard", label: "Dashboard" },
@@ -12,7 +13,16 @@ const links = [
   { href: "/admin", label: "Admin" }
 ];
 
-export function NavBar() {
+export async function NavBar() {
+  const supabase = await createClient();
+  const {
+    data: { user }
+  } = await supabase.auth.getUser();
+  const { data: profile } = user
+    ? await supabase.from("profiles").select("full_name").eq("id", user.id).maybeSingle()
+    : { data: null };
+  const userName = profile?.full_name ?? user?.user_metadata?.full_name ?? user?.email?.split("@")[0] ?? "User";
+
   return (
     <header className="nav-wrap">
       <nav className="nav">
@@ -27,13 +37,13 @@ export function NavBar() {
         </Link>
         <div className="links">
           {links.map((item) => (
-            <Link key={item.href} href={item.href}>
+            <Link key={item.href} href={item.href} className="nav-link">
               {item.label}
             </Link>
           ))}
           <NotificationBell />
           <ThemeToggle />
-          <SignOutButton />
+          <SignOutButton userName={userName} />
         </div>
       </nav>
     </header>

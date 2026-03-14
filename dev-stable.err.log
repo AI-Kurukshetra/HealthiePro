@@ -1,1 +1,307 @@
 <w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (140kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (140kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js:11:1
+Module not found: Can't resolve 'react-server-dom-webpack/server'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/components/error-boundary.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+AuthApiError: Invalid Refresh Token: Refresh Token Not Found {
+  __isAuthError: true,
+  status: 400,
+  code: 'refresh_token_not_found'
+}
+AuthApiError: Invalid Refresh Token: Refresh Token Not Found {
+  __isAuthError: true,
+  status: 400,
+  code: 'refresh_token_not_found'
+}
+AuthApiError: Invalid Refresh Token: Refresh Token Not Found {
+  __isAuthError: true,
+  status: 400,
+  code: 'refresh_token_not_found'
+}
+AuthApiError: Invalid Refresh Token: Refresh Token Not Found {
+  __isAuthError: true,
+  status: 400,
+  code: 'refresh_token_not_found'
+}
+ ⨯ ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js:11:1
+Module not found: Can't resolve 'react-server-dom-webpack/server'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/components/error-boundary.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ [Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+[Error: Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:
+  - react:      19.0.0
+  - react-dom:  19.2.4
+Learn more: https://react.dev/warnings/version-mismatch]
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./components/signout-button.tsx
+Module not found: Can't resolve 'react-server-dom-webpack/server.edge'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/nav.tsx
+./app/admin/page.tsx
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./components/signout-button.tsx
+Module not found: Can't resolve 'react-server-dom-webpack/server.edge'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/nav.tsx
+./app/admin/page.tsx
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
