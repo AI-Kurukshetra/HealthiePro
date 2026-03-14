@@ -513,6 +513,26 @@ button:disabled {
   animation: authCardIn 420ms ease-out both;
 }
 
+.auth-brand-corner {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(24, 33, 52, 0.12);
+}
+
+.auth-brand-corner .brand-logo {
+  width: 2rem;
+  height: 2rem;
+}
+
 .auth-card button {
   transition: transform 0.15s ease, filter 0.2s ease;
 }
@@ -571,6 +591,11 @@ button:disabled {
 }
 
 @media (max-width: 840px) {
+  .auth-brand-corner {
+    top: 0.75rem;
+    left: 0.75rem;
+  }
+
   .grid-3 {
     grid-template-columns: 1fr;
   }
