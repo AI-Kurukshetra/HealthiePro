@@ -475,10 +475,55 @@ button:disabled {
   display: grid;
   place-items: center;
   padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-shell::before,
+.auth-shell::after {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.auth-shell::before {
+  width: 280px;
+  height: 280px;
+  top: 8%;
+  left: -80px;
+  background: radial-gradient(circle, rgba(0, 109, 119, 0.18) 0%, rgba(0, 109, 119, 0) 70%);
+  animation: authPulse 5.2s ease-in-out infinite;
+}
+
+.auth-shell::after {
+  width: 320px;
+  height: 320px;
+  right: -110px;
+  bottom: -40px;
+  background: radial-gradient(circle, rgba(15, 110, 119, 0.16) 0%, rgba(15, 110, 119, 0) 70%);
+  animation: authPulse 6s ease-in-out infinite 0.8s;
 }
 
 .auth-card {
   width: min(440px, 95vw);
+  position: relative;
+  z-index: 1;
+  animation: authCardIn 420ms ease-out both;
+}
+
+.auth-card button {
+  transition: transform 0.15s ease, filter 0.2s ease;
+}
+
+.auth-card button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+}
+
+.auth-card button:active {
+  transform: translateY(0);
 }
 
 .muted {
@@ -488,6 +533,41 @@ button:disabled {
 .error {
   color: var(--danger);
   margin: 0;
+}
+
+@keyframes authCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes authPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .auth-shell::before,
+  .auth-shell::after,
+  .auth-card {
+    animation: none;
+  }
+
+  .auth-card button {
+    transition: none;
+  }
 }
 
 @media (max-width: 840px) {

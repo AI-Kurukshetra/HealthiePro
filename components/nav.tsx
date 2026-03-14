@@ -9,8 +9,7 @@ const links = [
   { href: "/profile", label: "Profile" },
   { href: "/providers", label: "Providers" },
   { href: "/appointments", label: "Appointments" },
-  { href: "/care-plans", label: "Care Plans" },
-  { href: "/admin", label: "Admin" }
+  { href: "/care-plans", label: "Care Plans" }
 ];
 
 export async function NavBar() {
@@ -19,9 +18,10 @@ export async function NavBar() {
     data: { user }
   } = await supabase.auth.getUser();
   const { data: profile } = user
-    ? await supabase.from("profiles").select("full_name").eq("id", user.id).maybeSingle()
+    ? await supabase.from("profiles").select("full_name, role").eq("id", user.id).maybeSingle()
     : { data: null };
   const userName = profile?.full_name ?? user?.user_metadata?.full_name ?? user?.email?.split("@")[0] ?? "User";
+  const navLinks = profile?.role === "admin" ? [...links, { href: "/admin", label: "Admin" }] : links;
 
   return (
     <header className="nav-wrap">
@@ -36,7 +36,7 @@ export async function NavBar() {
           <span>Healthie</span>
         </Link>
         <div className="links">
-          {links.map((item) => (
+          {navLinks.map((item) => (
             <Link key={item.href} href={item.href} className="nav-link">
               {item.label}
             </Link>

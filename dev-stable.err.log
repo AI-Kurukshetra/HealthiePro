@@ -305,3 +305,11 @@ https://nextjs.org/docs/messages/module-not-found
 
 Import trace for requested module:
 ./node_modules/next/dist/client/app-next-dev.js
+ ⨯ ./node_modules/next/dist/lib/require-instrumentation-client.js:11:1
+Module not found: Can't resolve 'private-next-instrumentation-client'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/client/app-next-dev.js
+^Cnpm error A complete log of this run can be found in: C:\Users\Bacancy\AppData\Local\npm-cache\_logs\2026-03-14T11_01_24_373Z-debug-0.log
