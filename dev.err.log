@@ -1,0 +1,40 @@
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (140kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ⨯ Error: Missing Supabase environment variables.
+    at createClient (lib\supabase\server.ts:16:10)
+    at async DashboardPage (app\dashboard\page.tsx:7:19)
+  14 |
+  15 |   if (!supabaseUrl || !supabaseAnonKey) {
+> 16 |     throw new Error("Missing Supabase environment variables.");
+     |          ^
+  17 |   }
+  18 |
+  19 |   return createServerClient(supabaseUrl, supabaseAnonKey, { {
+  digest: '2271739341'
+}
+ ⨯ Error: Missing Supabase environment variables.
+    at createClient (lib\supabase\server.ts:16:10)
+    at async AppointmentsPage (app\appointments\page.tsx:37:19)
+  14 |
+  15 |   if (!supabaseUrl || !supabaseAnonKey) {
+> 16 |     throw new Error("Missing Supabase environment variables.");
+     |          ^
+  17 |   }
+  18 |
+  19 |   return createServerClient(supabaseUrl, supabaseAnonKey, { {
+  digest: '1662575492'
+}
+ ⨯ Error: Missing Supabase environment variables.
+    at createClient (lib\supabase\server.ts:16:10)
+    at async CarePlansPage (app\care-plans\page.tsx:35:19)
+  14 |
+  15 |   if (!supabaseUrl || !supabaseAnonKey) {
+> 16 |     throw new Error("Missing Supabase environment variables.");
+     |          ^
+  17 |   }
+  18 |
+  19 |   return createServerClient(supabaseUrl, supabaseAnonKey, { {
+  digest: '2967348143'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (140kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (140kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+^Cnpm error A complete log of this run can be found in: C:\Users\Bacancy\AppData\Local\npm-cache\_logs\2026-03-14T05_03_21_329Z-debug-0.log

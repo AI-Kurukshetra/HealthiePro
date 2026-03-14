@@ -1,0 +1,38 @@
+
+> healthie-app@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.2.1
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.6.35:3000
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ✓ Compiled /middleware in 163ms
+ ✓ Compiled (151 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 3.8s (831 modules)
+ GET /login 200 in 1073ms
+ GET /login 200 in 60ms
+ ○ Compiling /signup ...
+ ✓ Compiled /signup in 550ms (824 modules)
+ GET /signup 200 in 766ms
+ ✓ Compiled /dashboard in 458ms (899 modules)
+ GET /dashboard 500 in 660ms
+ ✓ Compiled /appointments in 302ms (920 modules)
+ GET /appointments 500 in 497ms
+ ✓ Compiled /care-plans in 199ms (923 modules)
+ GET /care-plans 500 in 334ms
+   Reload env: .env.local
+ ✓ Compiled in 1715ms (532 modules)
+   Reload env: .env.local
+ ✓ Compiled in 284ms (518 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1520ms (455 modules)
+ GET /login 200 in 1749ms
+ GET /login 200 in 35ms
+ ✓ Compiled /signup in 201ms (460 modules)
+ GET /signup 200 in 334ms
+ GET /login 200 in 38ms
+ GET /login 200 in 31ms
+ GET /login 200 in 31ms

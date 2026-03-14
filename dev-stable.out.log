@@ -1,0 +1,21 @@
+
+> healthie-app@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.2.1
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.6.35:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1739ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 1731ms (151 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 6.5s (831 modules)
+ GET /login 200 in 1037ms
+ GET /login 200 in 58ms
+ GET /login 200 in 108ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 1367ms (898 modules)
+ GET /admin 200 in 3102ms

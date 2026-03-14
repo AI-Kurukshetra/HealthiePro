@@ -1,0 +1,105 @@
+
+> healthie-app@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.2.1
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.6.35:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.6s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 3.6s (151 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 15.2s (831 modules)
+ GET /login 200 in 174ms
+ GET /login 200 in 154ms
+ GET /login 200 in 206ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3.5s (898 modules)
+ GET /dashboard 200 in 4073ms
+ ✓ Compiled in 1350ms (907 modules)
+ GET /dashboard 200 in 616ms
+ ✓ Compiled /login in 482ms (532 modules)
+ GET /login 200 in 1275ms
+ GET /login 200 in 168ms
+ GET /dashboard 200 in 234ms
+ GET /dashboard 200 in 1032ms
+ GET /dashboard 200 in 901ms
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 820ms (914 modules)
+ GET /profile 200 in 1640ms
+ GET /dashboard 200 in 821ms
+ ✓ Compiled /login in 245ms (552 modules)
+ GET /login 200 in 505ms
+ GET /login 200 in 60ms
+ GET /dashboard 200 in 1110ms
+ GET /dashboard 200 in 1278ms
+ GET /dashboard 200 in 663ms
+ GET /profile 200 in 534ms
+ GET /dashboard 200 in 576ms
+ GET /login 200 in 90ms
+ ✓ Compiled in 675ms (933 modules)
+ GET /dashboard 200 in 219ms
+ GET /login 200 in 180ms
+ GET /login 200 in 59ms
+ GET /login 200 in 88ms
+ GET /login 200 in 55ms
+ GET /login 200 in 84ms
+ GET /login 200 in 59ms
+ GET /login 200 in 74ms
+ GET /login 200 in 66ms
+ ✓ Compiled in 620ms (933 modules)
+ GET /dashboard 200 in 204ms
+ GET /login 200 in 157ms
+ GET /login 200 in 76ms
+ GET /login 200 in 51ms
+ GET /login 200 in 73ms
+ GET /login 200 in 77ms
+ ✓ Compiled in 219ms (151 modules)
+ GET /login 200 in 94ms
+ GET /dashboard 200 in 1228ms
+ GET /profile 200 in 652ms
+ ○ Compiling /providers ...
+ ✓ Compiled /providers in 757ms (922 modules)
+ GET /providers 200 in 1450ms
+ ○ Compiling /appointments ...
+ ✓ Compiled /appointments in 517ms (925 modules)
+ GET /appointments 200 in 1063ms
+ ○ Compiling /care-plans ...
+ ✓ Compiled /care-plans in 615ms (928 modules)
+ GET /care-plans 200 in 1275ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 529ms (930 modules)
+ GET /admin 200 in 1919ms
+ GET /dashboard 200 in 625ms
+ ✓ Compiled in 530ms (555 modules)
+ GET /dashboard 200 in 200ms
+ GET /dashboard 200 in 1030ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1075ms (926 modules)
+ GET /_next/static/css/app/layout.css?v=1773485942815 404 in 1393ms
+ GET /_next/static/chunks/webpack.js?v=1773485942815 404 in 1403ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 1387ms
+ GET /_next/static/chunks/main-app.js?v=1773485942815 404 in 1391ms
+ GET /_next/static/chunks/app/dashboard/page.js 404 in 1386ms
+ GET /admin 200 in 1450ms
+ GET /_next/static/css/app/layout.css?v=1773485977973 404 in 80ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 236ms
+ GET /_next/static/chunks/app/admin/page.js 404 in 236ms
+ GET /_next/static/chunks/main-app.js?v=1773485977973 404 in 241ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 539ms (561 modules)
+ GET /login 200 in 818ms
+ GET /login 200 in 74ms
+ GET /_next/static/css/app/layout.css?v=1773486048290 404 in 177ms
+ GET /_next/static/chunks/app/login/page.js 404 in 204ms
+ GET /_next/static/chunks/main-app.js?v=1773486048290 404 in 204ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 202ms
+ GET /login 200 in 76ms
+ GET /_next/static/css/app/layout.css?v=1773486048603 404 in 53ms
+ GET /_next/static/chunks/main-app.js?v=1773486048603 404 in 63ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 61ms
+ GET /_next/static/chunks/app/login/page.js 404 in 63ms
+ GET /_next/static/chunks/polyfills.js 404 in 57ms
